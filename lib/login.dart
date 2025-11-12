@@ -51,6 +51,24 @@ class _LoginFormState extends State<LoginForm> {
     const errorStyle = TextStyle(fontWeight: FontWeight.bold, letterSpacing: 2, fontSize: 14, color: Colors.red);
 
     return Scaffold(
+      appBar: AppBar(
+        title: const Text(
+          "Task6_Erosido",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            fontSize: 20,
+          ),
+        ),
+        centerTitle: true,
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
+        elevation: 2,
+        // Optional: Add back button (if you came from somewhere)
+        // leading: IconButton(
+        //   icon: const Icon(Icons.arrow_back),
+        //   onPressed: () => Navigator.pop(context),
+        // ),
+      ),
       body: Center(
         child: Container(
           margin: const EdgeInsets.symmetric(horizontal: 25),
