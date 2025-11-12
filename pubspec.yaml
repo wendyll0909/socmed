@@ -1,0 +1,35 @@
+name: socmeds
+description: "A TikTok-style social media clone built with Flutter."
+publish_to: 'none' # keep private
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2   # matches your Flutter version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # -----------------------------------------------------------------
+  #  ASSETS – add every image used in the app
+  # -----------------------------------------------------------------
+  assets:
+    - assets/logo.png
+    - assets/person1.jpg
+    - assets/person2.jpg
+    - assets/person3.jpg
+    - assets/person4.jpg
+    - assets/person5.jpg
+    - assets/person6.jpg
+    - assets/playjob.jpg
+    - assets/palovab.jpg
